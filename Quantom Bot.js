@@ -1,4 +1,4 @@
-
+// Bot
 var Robot;
 (function ()
 {
