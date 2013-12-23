@@ -21,6 +21,7 @@ var Robot;
         this.cloneState.tracker = this.parentState.tracker;
         this.cloneState.strafeDirection = -1 * this.parentState.strafeDirection;
         this.cloneState.time = this.parentState.time;
+        this.clone.State.robotHealth (99999999);
         return;
       }
       var c = this.getState(b);
